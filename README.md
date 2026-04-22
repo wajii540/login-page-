@@ -1,16 +1,78 @@
 # week1_task
 
-A new Flutter project.
+A Flutter application for Week 1 internship task featuring user authentication and home screen functionality.
+
+## Project Overview
+
+This is a mobile application built with Flutter that includes:
+- **Login Screen** - User authentication interface
+- **Home Screen** - Main application dashboard
+- Multi-platform support (Android, iOS, Web, Windows, macOS, Linux)
+
+## Project Structure
+
+```
+lib/
+  ├── main.dart           # Application entry point
+  ├── login_screen.dart   # Login page UI
+  └── homescreen.dart     # Home page UI
+```
+
+## Features
+
+- Clean Material Design UI
+- Login screen with authentication flow
+- Home screen dashboard
+- Cross-platform compatibility
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio / Xcode (for mobile development)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd week1_task
+```
+
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Run the application:
+```bash
+flutter run
+```
+
+## Running on Different Platforms
+
+- **Android**: `flutter run -d android`
+- **iOS**: `flutter run -d ios`
+- **Web**: `flutter run -d chrome`
+- **Windows**: `flutter run -d windows`
+- **macOS**: `flutter run -d macos`
+- **Linux**: `flutter run -d linux`
+
+## Testing
+
+Run tests with:
+```bash
+flutter test
+```
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Dart Documentation](https://dart.dev/guides)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+
+## License
+
+This project is part of the internship program.
